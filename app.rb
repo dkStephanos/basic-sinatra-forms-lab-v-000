@@ -1,9 +1,10 @@
 require 'sinatra/base'
+require 'pry'
 
 class App < Sinatra::Base
 
   get '/newteam' do
-    puts params
+    binding.pry
     erb :newteam
   end
 
