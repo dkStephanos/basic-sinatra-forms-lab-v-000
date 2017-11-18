@@ -7,7 +7,7 @@
  <body>
    <h1>Create a Basketball Team!</h1>
 
-    <form method="POST" action="/team">
+    <form method="POST" action="/team" id="form1">
       <p>Team Name: <input type="text" name="name"></p>
       <p>Coach: <input type="text" name="coach"></p>
       <p>Point Guard: <input type="text" name="pg"></p>
@@ -15,8 +15,8 @@
       <p>Small Forward: <input type="text" name="sf"></p>
       <p>Power Forward: <input type="text" name="pf"></p>
       <p>Center: <input type="text" name="c"></p>
-      <input type="submit" name="submit">
     </form>
+    <button type="submit" form="form1" value="Submit">Submit</button>
 
  </body>
 </html>
